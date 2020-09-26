@@ -1,0 +1,40 @@
+http://localhost:8081/registration
+{
+	"accountnumber":"4010416294",
+	"pin":"123123",
+	"email":"ragilnamasaya@gmail.com",
+	"ektp":"130313150003032",
+	"usernameid":"ragil",
+	"mpin":"123123"
+}
+
+
+
+http://localhost:8081/verification
+{
+	"otp":405343
+}
+
+http://localhost:8081/log-in
+{
+	"usernameid":"ragil",
+	"mpin":"123123"
+}
+
+http://localhost:8081/balance
+{
+	"pin":"123123"
+}
+http://localhost:8081/log-out
+// indosat
+http://localhost:8081/voucher/handphone?no_hp=08161309852
+http://localhost:8081/voucher/handphone/kuota?no_hp=08161309852
+http://localhost:8081/checkout/voucher/handphone/kuota?no_hp=08161309852&price=15000
+http://localhost:8081/checkout/voucher/handphone/kuota?no_hp=08781309852&price=15000
+http://localhost:8081/checkout/voucher/handphone/{type}?no_hp=<parameter>&price=<parameter>
+// xl
+http://localhost:8081/voucher/handphone?no_hp=087888012323
+http://localhost:8081/voucher/handphone/kuota?no_hp=087888012323
+http://localhost:8081/checkout/voucher/handphone/kuota?no_hp=087888012323&price=10000
+http://localhost:8081/checkout/voucher/handphone/kuota?no_hp=087888012323&price=10000
+
